@@ -75,3 +75,9 @@ bill_details[:kwh] = kwh
 bill_details[:bill_amount] = @bill_amount
 bill_details[:start_date] = @start_date
 bill_details[:end_date] = @end_date
+
+# TODO
+# Create method that calls in different tables with various cells, rows, and table IDs as parameters into Nokogiri
+# Use global variables instead of instance vars
+# Look into classes for this project
+# Call in ENV vars (credentials)
